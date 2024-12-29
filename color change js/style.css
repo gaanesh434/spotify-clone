@@ -1,0 +1,25 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    background-color: #f0f0f0;
+}
+
+.container {
+    display: grid;
+    grid-template-columns: repeat(2, 150px); 
+    grid-template-rows: repeat(2, 150px); 
+    gap: 10px;
+}
+
+.block {
+    width: 150px; 
+    height: 150px; 
+}
+
+.block1 { background-color: #FF5733; } 
+.block2 { background-color: #33FF57; } 
+.block3 { background-color: #3357FF; }
+.block4 { background-color: #F3FF33; } 
